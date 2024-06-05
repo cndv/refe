@@ -1,0 +1,148 @@
+.TUI-message-input-container {
+  box-shadow: 2px 3px 13px 4px #f1f1f1;
+  padding-bottom: 30rpx;
+}
+
+.TUI-message-input {
+  display: flex;
+  padding-bottom: 16rpx;
+  background-color: #fff;
+  width: 100vw;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.TUI-commom-function {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 80rpx;
+  background-color: #fff;
+  align-items: center;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.TUI-commom-function-item {
+  display: flex;
+  width: 136rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #ffffff;
+  height: 48rpx;
+  margin-left: 16rpx;
+  border-radius: 24rpx;
+  background-color: #5856d5;
+}
+
+.TUI-message-input-functions {
+  display: flex;
+}
+.TUI-message-input-main {
+  background-color: #fff;
+  flex: 1;
+  height: 66rpx;
+  margin: 0 10rpx;
+  padding: 0 5rpx;
+  border-radius: 5rpx;
+  display: flex;
+  align-items: center;
+}
+.TUI-message-input-area {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+  border-radius: 30rpx;
+  padding: 0 20rpx;
+}
+.TUI-icon {
+  width: 56rpx;
+  height: 56rpx;
+  margin: 0 16rpx;
+}
+.TUI-Extensions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 450rpx;
+  margin-left: 14rpx;
+  margin-right: 14rpx;
+}
+
+.TUI-Extension-slot {
+  width: 128rpx;
+  height: 170rpx;
+  margin-left: 26rpx;
+  margin-right: 26rpx;
+  margin-top: 24rpx;
+}
+
+.TUI-Extension-icon {
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.TUI-sendMessage-btn {
+  display: flex;
+  align-items: center;
+  margin: 0 10rpx;
+  background: #5856d5;
+  border-radius: 15rpx;
+  padding: 0 16rpx;
+  color: #fff;
+}
+
+.TUI-Emoji-area {
+  width: 100vw;
+  height: 450rpx;
+}
+
+.TUI-Extension-slot-name {
+  line-height: 34rpx;
+  font-size: 24rpx;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.record-modal {
+  height: 300rpx;
+  width: 60vw;
+  background-color: #000;
+  opacity: 0.8;
+  position: fixed;
+  top: 670rpx;
+  z-index: 9999;
+  left: 20vw;
+  border-radius: 24rpx;
+  display: flex;
+  flex-direction: column;
+}
+.record-modal .wrapper {
+  display: flex;
+  height: 200rpx;
+  box-sizing: border-box;
+  padding: 10vw;
+}
+.record-modal .wrapper .modal-loading {
+  opacity: 1;
+  width: 40rpx;
+  height: 16rpx;
+  border-radius: 4rpx;
+  background-color: #5856d5;
+  animation: loading 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+.modal-title {
+  text-align: center;
+  color: #fff;
+}
+@keyframes loading {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30vw, 0);
+    background-color: #f5634a;
+    width: 40px;
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
