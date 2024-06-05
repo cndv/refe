@@ -85,7 +85,7 @@
                         <view class="close-btn">
                             <image
                                 class="close-btn"
-                                src="../../static/叉叉.png"
+                                src="../../static/x.png"
                                 mode=""
                             ></image>
                         </view>
